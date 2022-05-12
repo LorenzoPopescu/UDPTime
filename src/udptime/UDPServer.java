@@ -60,7 +60,6 @@ public class UDPServer{
     }
     
     public void ricevuto(){
-        System.out.println("OK");
         //si recupera l'indirizzo IP e la porta UDP del client
 	clientAddress = inPacket.getAddress();
 	clientPort = inPacket.getPort();
